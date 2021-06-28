@@ -7,6 +7,11 @@
     <p class="aside">
       嵌套导入
     </p>
+
+    <p>静默注释</p>
+    <div class="silentNotes">
+
+    </div>
   </div>
 </template>
 
@@ -34,5 +39,11 @@ $fancybox-width: 400px !default;
     background: blue;
     color: white;
   }
+}
+
+.silentNotes {
+  width: 100px;
+  height: 20px;  // sass注释，不会出现在生成的css文件中
+  background-color: #9a7272; /* 这种注释会出现在生成的css文件中 */
 }
 </style>

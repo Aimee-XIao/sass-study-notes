@@ -43,6 +43,10 @@ export default {
         {
           path:'/import-file',
           name:'导入sass文件'
+        },
+        {
+          path:'/mixer',
+          name:'混合器'
         }
       ]
     }

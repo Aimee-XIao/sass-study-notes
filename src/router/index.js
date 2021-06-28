@@ -17,6 +17,10 @@ const routes = [
       {
         path:'/import-file',
         component: ()=> import('../views/import-file')
+      },
+      {
+        path:'/mixer',
+        component: ()=> import('../views/mixer')
       }
     ]
   },
